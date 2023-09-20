@@ -28,9 +28,6 @@
     PS> $obj = [PSCustomObject]@{ Name = "apple" }
     PS> $obj | Get-ObjectWithMatchingProperty -SourceList @("ora", "lem") -Property "Name"
     $null
-
-    .LINK
-    Online version: [Your link here if available]
 #>
 
 function Get-ObjectWithMatchingProperty {
